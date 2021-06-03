@@ -1,4 +1,4 @@
-#Assignment 6
+# Assignment 6
 With your newly acquired Python skills you have been asked by a friend who 
 runs a small business to develop an application to keep track of her employees. 
 There will be about 40-50 employees at any one time, and the system will be 
@@ -23,7 +23,7 @@ be shown on the screen for the purpose of this assignment.
 Because this system is used to store data about people it is very important 
 that it is tested well, using automated testing techniques.
 
-##Here is what you need to do:
+## Here is what you need to do:
 
 1. Develop the data capture and data amendment functionality. Capture 
 additional information to that specified above, based on what you think will 
@@ -42,7 +42,7 @@ sort in between each item (like a CSV or a table).
 described (such as for triggering reports).
 1. Be sure to commit to local git frequently and use a virtual environment.
 
-##Submission:
+## Submission:
 
 Your submission should include the following:
 
@@ -50,9 +50,9 @@ Your submission should include the following:
 1. The csv file with some employee data in it.
 1. Run ```git log > history.txt``` in the terminal from your project root 
 directory to show how you have committed regularly.
-1. The files should be zipped and attached to your Canvas submission.
-#
-#Tips
+1. All Tthe files should be zipped and attached to your Canvas submission.
+
+# Tips
 
 Be creative! Use this as an oportunity to reflect on everything you have 
 learned so far and apply it to application development.
