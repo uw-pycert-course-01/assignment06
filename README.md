@@ -52,7 +52,7 @@ Your submission should include the following:
 directory to show how you have committed regularly.
 1. All Tthe files should be zipped and attached to your Canvas submission.
 
-# Tips
+## Tips
 
 Be creative! Use this as an oportunity to reflect on everything you have 
 learned so far and apply it to application development.
