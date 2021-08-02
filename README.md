@@ -9,7 +9,7 @@ You are going to develop that system. It will be able to record basic employee
 details, like name, address, ssn, date of birth, job title, start date and end 
 date. It will store these details in a csv file on disk, from where it can also 
 load them, so the employee details can be amended. The system must make 
-appropriate use of validation of the data entered, and must also be able to 
+appropriate use of validation for the data entered, and must also be able to 
 trap major errors, at least by reporting a meaningful message.
 
 The system must be able to produce a list of all employees who are currently 
@@ -36,7 +36,7 @@ much as possible.
 1. Make use of formatting techniques to ensure that information reported to 
 the screen is well laid out and easy to understand. More specifically, each 
 row of data should be printed out on a new line and have a separator of some 
-sort in between each item (like a CSV or a table).
+sort in between each item (ideally, it will look tabular).
 1. Use automated testing to validate the system behaves as intended.
 1. Carefully consider data needs that are implied by the functionality 
 described (such as for triggering reports).
@@ -46,11 +46,11 @@ described (such as for triggering reports).
 
 Your submission should include the following:
 
-1. The py files, including tests, that you dveleoped.
+1. The py files, including tests, that you developed.
 1. The csv file with some employee data in it.
-1. Run ```git log > history.txt``` in the terminal from your project root 
+1. Run `git log > history.txt` in the terminal from your project root 
 directory to show how you have committed regularly.
-1. All Tthe files should be zipped and attached to your Canvas submission.
+1. Be sure to submit through git, and zip and attached to your Canvas submission.
 
 ## Tips
 
