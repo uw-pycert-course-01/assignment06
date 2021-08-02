@@ -1,4 +1,7 @@
 # Assignment 6
+
+You have two weeks for this assignment.
+
 With your newly acquired Python skills you have been asked by a friend who 
 runs a small business to develop an application to keep track of her employees. 
 There will be about 40-50 employees at any one time, and the system will be 
