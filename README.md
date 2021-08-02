@@ -57,5 +57,5 @@ directory to show how you have committed regularly.
 
 ## Tips
 
-Be creative! Use this as an oportunity to reflect on everything you have 
+Be creative! Use this as an opportunity to reflect on everything you have 
 learned so far and apply it to application development.
