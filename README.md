@@ -1,23 +1,30 @@
 # Assignment 6
 
+## Time to complete this assignment:
+
 You have two weeks for this assignment.
 
+## Motivation:
+
 With your newly acquired Python skills you have been asked by a friend who 
-runs a small business to develop an application to keep track of her employees. 
-There will be about 40-50 employees at any one time, and the system will be 
-run by your friend. It is fine that it will run as an app that is lanched from 
-the terminal and will use text based input and output.
+runs a small business to develop an application to keep track of her employees.
+
+There will be an estimate 40-50 employees at any one time; your friend, as business
+owner, will be the sole user of the system. It is fine that it will run as an app
+that is launched from the terminal and will use text based input and output.
 
 You are going to develop that system. It will be able to record basic employee 
-details, like name, address, ssn, date of birth, job title, start date and end 
-date. It will store these details in a csv file on disk, from where it can also 
-load them, so the employee details can be amended. The system must make 
-appropriate use of validation for the data entered, and must also be able to 
-trap major errors, at least by reporting a meaningful message.
+details, like name, address, Social Security number (SSN), date of birth, job title,
+start date and end date. It will store these details in a csv (Comma-separated files,
+which you may have used on spreadsheet software) file on disk, from where
+it can also load them, so the employee details can be amended. The system must make 
+appropriate use of validation for the data entered (check for missing fields, invalid
+values, etc.), and must also be able to trap major errors (things that will make your
+program crash), at least by reporting a meaningful message.
 
 The system must be able to produce a list of all employees who are currently 
 employed, and a list of all employess who have left on the last month. Both 
-lists must be sorted by emplyee id number.
+lists must be sorted by employee id number.
 
 The system needs to be able to display reminders to schedule an annual review 
 with an employee 3 months prior to their individual review date. This can just 
@@ -49,11 +56,14 @@ described (such as for triggering reports).
 
 Your submission should include the following:
 
-1. The py files, including tests, that you developed.
-1. The csv file with some employee data in it.
+1. All Python (.py) files, including tests, that you developed.
+1. A sample csv file with some employee data in it.
+1. Any other files required to successfully run your code.
 1. Run `git log > history.txt` in the terminal from your project root 
 directory to show how you have committed regularly.
-1. Be sure to submit through git, and zip and attached to your Canvas submission.
+1. Be sure to submit through git, using a pull request from a branch called *Development*. 
+1. You also need to upload your code to Canvas, uploading it as a pull request.
+1. In Canvas, add a comment to your submission with a link to your pull request.
 
 ## Tips
 
