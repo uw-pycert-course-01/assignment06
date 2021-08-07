@@ -65,7 +65,14 @@ directory to show how you have committed regularly.
 1. You also need to upload your code to Canvas, uploading it as a pull request.
 1. In Canvas, add a comment to your submission with a link to your pull request.
 
+Your submission **should not** include your virtual environment. To ensure this, create your
+virtual environment in the parent folder of your assignment repository.
+
 ## Tips
 
-Be creative! Use this as an opportunity to reflect on everything you have 
+1. Be creative! Use this as an opportunity to reflect on everything you have 
 learned so far and apply it to application development.
+1. Use your time well, two weeks might seem like a lot, but you will run out of time if you
+wait too much to get started. At the end of the first week, you should have the first
+*draft* of your project, so that you can devote the second week fixing potential crashes
+and adding any missing features.
