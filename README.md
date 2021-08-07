@@ -61,7 +61,7 @@ Your submission should include the following:
 1. Any other files required to successfully run your code.
 1. Run `git log > history.txt` in the terminal from your project root 
 directory to show how you have committed regularly.
-1. Be sure to submit through git, using a pull request from a branch called *Development*. 
+1. Be sure to submit through git, using a pull request from a branch called *development*. 
 1. You also need to upload your code to Canvas, uploading it as a pull request.
 1. In Canvas, add a comment to your submission with a link to your pull request.
 
