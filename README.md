@@ -44,9 +44,9 @@ Anubhaw Arya,Seattle,1234567890,1/1/1970,lecturer,1/1/2021,
 Notice that `end_date` is empty, signifying that the employee still works there. Feel free to add more fields
 1. For the second option, saving the employees to a csv, you must ask the user where to save the csv file and save it there. Follow the above format for the file.
 1. For the third option, adding a new employee, collect all the data from the user and apply input validation to those fields. If any of those checks fail, reprompt the user for that data. `employee_id` should be generated and be unique across all employees.
-1. For the third option, generate a report of currently employees currently working for the company. Print it out cleanly via string formatting!
-1. For the fourth option, generate a report of employees who have left within the past 31 days. Print it out cleanly via string formatting!
-1. For the fifth option, generate a report of annual review reminders. These are for employees who's work anniversary are within 90 days.
+1. For the fourth option, generate a report of currently employees currently working for the company. Print it out cleanly via string formatting!
+1. For the fifth option, generate a report of employees who have left within the past 31 days. Print it out cleanly via string formatting!
+1. For the sixth option, generate a report of annual review reminders. These are for employees who's work anniversary are within 90 days.
 1. Including unit testing where this makes the most sense. We want to make sure our program is correct as we incrementally build it out!
 
 ## Submission:
