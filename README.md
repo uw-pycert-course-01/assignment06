@@ -35,22 +35,19 @@ that it is tested well, using automated testing techniques.
 
 ## Here is what you need to do:
 
-1. Develop the data capture and data amendment functionality. Capture 
-additional information to that specified above, based on what you think will 
-be useful or needed.
-1. Make sure the data is validated, so data entry errors can be prevented as 
-much as possible.
-1. Ensure that data is stored in a csv file and can be retrieved.
-1. Build a menu so the system is easy to use.
-1. Ensure each employee has a unique id.
-1. Make use of formatting techniques to ensure that information reported to 
-the screen is well laid out and easy to understand. More specifically, each 
-row of data should be printed out on a new line and have a separator of some 
-sort in between each item (ideally, it will look tabular).
-1. Use automated testing to validate the system behaves as intended.
-1. Carefully consider data needs that are implied by the functionality 
-described (such as for triggering reports).
-1. Be sure to commit to local git frequently and use a virtual environment.
+1. Create a menu that gives the user the options to load employees in from a csv, save them into a csv, add a new employee, generate a report of current employees, generate a report of employees who have recently left, and generate a report of annual review reminders.
+1. For the first option, loading in employees from a csv, you must ask the user for the location of the csv and load that in. The format of csv will be as follows:
+```csv
+employee_id,name,address,ssn,date_of_birth,job_title,start_date,end_date
+Anubhaw Arya,Seattle,1234567890,1/1/1970,lecturer,1/1/2021,
+```
+Notice that `end_date` is empty, signifying that the employee still works there. Feel free to add more fields
+1. For the second option, saving the employees to a csv, you must ask the user where to save the csv file and save it there. Follow the above format for the file.
+1. For the third option, adding a new employee, collect all the data from the user and apply input validation to those fields. If any of those checks fail, reprompt the user for that data. `employee_id` should be generated and be unique across all employees.
+1. For the fourth option, generate a report of currently employees currently working for the company. Print it out cleanly via string formatting!
+1. For the fifth option, generate a report of employees who have left within the past 31 days. Print it out cleanly via string formatting!
+1. For the sixth option, generate a report of annual review reminders. These are for employees who's work anniversary are within 90 days.
+1. Including unit testing where this makes the most sense. We want to make sure our program is correct as we incrementally build it out!
 
 ## Submission:
 
@@ -59,14 +56,10 @@ Your submission should include the following:
 1. All Python (.py) files, including tests, that you developed.
 1. A sample csv file with some employee data in it.
 1. Any other files required to successfully run your code.
-1. Run `git log > history.txt` in the terminal from your project root 
-directory to show how you have committed regularly.
-1. Be sure to submit through git, using a pull request from a branch called *development*. 
 1. You also need to upload your code to Canvas, uploading it as a pull request.
 1. In Canvas, add a comment to your submission with a link to your pull request.
 
-Your submission **should not** include your virtual environment. To ensure this, create your
-virtual environment in the parent folder of your assignment repository.
+Your submission **should not** include your virtual environment.
 
 ## Tips
 
